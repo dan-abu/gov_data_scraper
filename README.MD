@@ -13,7 +13,9 @@ Despite, the title, you should be able to use this code for any website.
 - Be familiar with xpaths and feel confident enough to get the desired xpath (I'd recommend Chrome for this).
 
 ## Example command
+```
 python3 ./src/main.py "https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/datasets/householddisposableincomeandinequality" "/html/body/main/div[4]/div/div[1]/section[2]/div[1]/div[2]/div/div/a" <preferred_download_dir>
+```
 
 ## Considerations
 - If the website in the example command changes its structure, the example command might crash.
